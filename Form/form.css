@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: cornflowerblue;
+  padding: 20px;
+  width: 300px;
+  gap: 5px;
+  border-radius: 10px;
+  box-shadow: 5px 5px black;
+}
+.container form .txt-head{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 14px 0px;
+    align-items: center;
+}
+.container form .txt-head h4 {
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+.container form .txt-head span{
+    color: rgb(105, 0, 0);
+    /* padding: 5px 10px; */
+    width: 100%;
+    background-color: rgba(149, 32, 32, 0.628);
+}
+.container form .form-input {
+  display: flex;
+  width: 100%;
+  gap: 3px;
+  flex-direction: column;
+}
+.container form .form-input label {
+  font-family: sans-serif;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+.container form .form-input input {
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  font-size: 13px;
+  outline: none;
+  border: none;
+}
+::placeholder {
+  letter-spacing: 1px;
+  font-size: 12px;
+  color: grey;
+}
+.container form .form-input span {
+  font-size: 13px;
+  color: red;
+  font-family: sans-serif;
+}
+.container form .activate {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.container form .activate label {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  gap: 2px;
+  font-family: sans-serif;
+}
+.container form .form-input .submit:hover {
+  background-color: black;
+  transition: all 0.3s ease;
+  color: white;
+}
+.container form .form-input .submit:active {
+  scale: 0.95;
+}
+.container form .form-input div {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+.container form .form-input div h4 {
+  font-family: sans-serif;
+  font-weight: 200;
+  margin-top: 5px;
+  font-size: 13px;
+}
+.container form .form-input div h4 a {
+  font-family: sans-serif;
+  color: blue;
+  text-underline-offset: 2px;
+}
