@@ -1,10 +1,10 @@
 <?php
 function connect()
 {
-    $db_host = "localhost";
-    $db_user = "root";
-    $db_password = "David012@";
-    $db_db = "db_employee";
+    $db_host = "";
+    $db_user = "";
+    $db_password = "";
+    $db_db = "";
 
     $mysql = @new mysqli(
         $db_host,
